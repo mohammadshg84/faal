@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Vazir';
+	src: url('https://hspr.ir/assets/fonts/Vazir.eot') format('eot'), url('https://hspr.ir/assets/fonts/Vazir.ttf') format('ttf'), url('https://hspr.ir/assets/fonts/Vazir.woff') format('woff'), url('https://hspr.ir/assets/fonts/Vazir.woff2') format('woff2');
+	font-weight: normal;
+}
+body {
+	font-family: Vazir;
+	background-color: #202020;
+	color: #e0e0e0;
+}
+@media screen and (min-width: 600px) {
+    .img-post {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .img-post {
+        width: 100%;
+    }
+}
+.ftr {
+	color: #e0e0e0;
+	text-decoration: none;
+}
+.ftr:hover {
+	color: #2980b9;
+	transition: all 0.5s ease;
+}
+.ftr-m {
+	text-align: center;
+}
+.post {
+	font-size: 18px;
+	padding: 15px;
+}
+.img-post {
+	border-radius: 22px;
+}
+.t-rt {
+	text-align: center;
+}
